@@ -1,3 +1,5 @@
 const getWords = state => state.words.dictionary;
 
 export const getFirstWords = (state, count) => getWords(state).slice(0, count);
+
+export const getSearchTerm = state => state.words.searchTerm;
