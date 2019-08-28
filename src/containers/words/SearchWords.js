@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import SearchForm from '../../components/words/SearchForm';
+import SearchForm from '../../words/SearchForm';
 import { getSearchTerm } from  '../../selectors/wordsSelectors';
 import { updateSearchTerm } from '../../actions/wordsActions';
 
