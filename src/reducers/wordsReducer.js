@@ -2,7 +2,8 @@ import words from '../fixtures/words.json';
 import { UPDATE_SEARCH_TERM } from '../actions/wordsActions';
 
 const initialState = {
-  dictionary: [...words]
+  dictionary: [...words],
+  searchTerm: ''
 };
 
 export default function reducer(state = initialState, action) {
@@ -12,4 +13,6 @@ export default function reducer(state = initialState, action) {
     default: return state;
   }
 }
+
+
 
